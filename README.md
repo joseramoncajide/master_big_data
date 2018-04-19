@@ -12,3 +12,6 @@ Accompanying code repository for my teaching Big Data classes.
 
 ## Bonus
 * Modeling flight data in Apache Spark [`data_modeling_spark.R`](data_modeling_spark.R) 
+
+## Datasets
+* https://storage.googleapis.com/open-datasets/flights/flights/2008.csv.zip
