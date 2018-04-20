@@ -4,6 +4,10 @@
 ##########################################################################
 
 # Packages
+list.of.packages <- c("tidyverse", "modelr", "modelr", "broom", "ISLR", "ROCR", "caret")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
 library(tidyverse)  # data manipulation and visualization
 library(modelr)     # provides easy pipeline modeling functions
 library(broom)      # helps to tidy up model outputs

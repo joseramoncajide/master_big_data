@@ -3,7 +3,7 @@
 # Master Big data: Reshaping and Transforming data with tidyr and dplyr
 ##########################################################################
 
-list.of.packages <- c("R.utils", "tidyverse", "doParallel", "foreach", "sqldf", "broom", "DBI", "ggplot2", "tidyr", "lubridate")
+list.of.packages <- c("R.utils", "tidyverse", "sqldf", "broom", "DBI", "ggplot2", "tidyr", "lubridate")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
 

@@ -9,7 +9,7 @@ if(length(new.packages)) install.packages(new.packages)
 
 
 # Base R: Do not run
-# flights <- read.csv("data/flights/2007.csv")
+# flights <- read.csv("data/2008.csv")
 
 airports <- read.csv("data/airports.csv")
 
